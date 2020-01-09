@@ -1,5 +1,6 @@
 import traceback
 import getpass
+from pprint import pprint
 
 from selenium import webdriver
 from selenium.webdriver.firefox.firefox_binary import FirefoxBinary
@@ -98,9 +99,12 @@ class CollectPosts(object):
         # Once the full page is loaded, we can start scraping
         with open(self.dump, "a+", newline='', encoding="utf-8") as save_file:
             writer = csv.writer(save_file)
-            links = self.browser.find_elements_by_link_text("See more")
+            links = self.browser.find_elements_by_link_text("See More")
             for link in links:
-                link.click()
+                try:
+                    link.click()
+                except:
+                    pass
             posts = self.browser.find_elements_by_class_name(
                 "userContentWrapper")
             poster_names = self.browser.find_elements_by_xpath(
@@ -142,9 +146,12 @@ class CollectPosts(object):
         # Once the full page is loaded, we can start scraping
         with open(self.dump, "a+", newline='', encoding="utf-8") as save_file:
             writer = csv.writer(save_file)
-            links = self.browser.find_elements_by_link_text("See more")
+            links = self.browser.find_elements_by_link_text("See More")
             for link in links:
-                link.click()
+                try:
+                    link.click()
+                except:
+                    pass
             posts = self.browser.find_elements_by_class_name(
                 "userContentWrapper")
             poster_names = self.browser.find_elements_by_xpath(
@@ -158,9 +165,12 @@ class CollectPosts(object):
                 time_element = post.find_element_by_css_selector("abbr")
                 utime = time_element.get_attribute("data-utime")
                 analysis.append(utime)
-
+                pprint(post)
                 # Creating post text entry
                 text = post.find_element_by_class_name("userContent").text
+                pprint(text)
+                # text2=post.find_element_by_class_name('text_exposed_show').text
+                # print(text2)
                 status = self.strip(text)
                 analysis.append(status)
 
