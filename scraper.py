@@ -9,6 +9,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.common.exceptions import NoSuchElementException, TimeoutException
 from selenium.webdriver.firefox.options import Options
+from selenium.webdriver.support import expected_conditions as EC
 import sys
 import time
 import argparse
@@ -146,20 +147,36 @@ class CollectPosts(object):
         # Once the full page is loaded, we can start scraping
         with open(self.dump, "a+", newline='', encoding="utf-8") as save_file:
             writer = csv.writer(save_file)
-            links = self.browser.find_elements_by_link_text("See More")
-            for link in links:
-                try:
-                    link.click()
-                except:
-                    pass
-            posts = self.browser.find_elements_by_class_name(
-                "userContentWrapper")
-            poster_names = self.browser.find_elements_by_xpath(
-                "//a[@data-hovercard-referer]")
+            posts = self.browser.find_elements_by_class_name("userContentWrapper")
+            # links = self.browser.find_elements_by_link_text("See More")
+            # for link in links:
+            #     try:
+            #         link.click()
+            #     except:
+            #         pass
+            poster_names = self.browser.find_elements_by_xpath("//a[@data-hovercard-referer]")
 
             for count, post in enumerate(posts):
                 # Creating first CSV row entry with the poster name (eg. "Donald Trump")
-                analysis = [poster_names[count].text]
+                # analysis = [poster_names[count].text]
+                flag = False
+                data = ""
+                continue_reading_author = ""
+                continue_reading_post = ""
+                try:
+                    link = post.find_element_by_xpath(".//span[@class='text_exposed_link']//a")
+                    link.click()
+                    if (len(self.browser.window_handles) == 2):
+                        self.browser.switch_to.window(window_name=self.browser.window_handles[-1])
+                        flag = True
+                except Exception as e: 
+                    pass
+                if flag:
+                    element = WebDriverWait(self.browser, 10).until(
+                        EC.presence_of_element_located((By.CLASS_NAME, "userContentWrapper")))
+                    post = self.browser.find_element_by_class_name("userContentWrapper")
+                analysis = [post.find_element_by_xpath(".//a[@data-hovercard-referer]").text]
+                print(analysis)
 
                 # Creating a time entry.
                 time_element = post.find_element_by_css_selector("abbr")
@@ -171,11 +188,20 @@ class CollectPosts(object):
                 pprint(text)
                 # text2=post.find_element_by_class_name('text_exposed_show').text
                 # print(text2)
-                status = self.strip(text)
-                analysis.append(status)
+                # status = self.strip(text)
+                analysis.append(text)
+                if flag:
+                    self.browser.close()
+                    self.browser.switch_to.window(window_name=self.browser.window_handles[0])
 
                 # Write row to csv
                 writer.writerow(analysis)
+
+    def get_data_and_close_last_tab(self):
+        if (len(self.driver.window_handles) == 2):
+            self.driver.switch_to.window(window_name=self.driver.window_handles[-1])
+            self.driver.close()
+            self.driver.switch_to.window(window_name=self.driver.window_handles[0])
 
     def collect(self, typ):
         if typ == "groups":
@@ -187,7 +213,7 @@ class CollectPosts(object):
             self.collect_page(self.ids)
             # for iden in self.ids:
             #     self.collect_page(iden)
-        self.browser.close()
+        # self.browser.close()
 
     def safe_find_element_by_id(self, elem_id):
         try:

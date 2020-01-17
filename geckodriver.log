@@ -1005,3 +1005,170 @@ JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_n
 
 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
+1579268989633	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileh1oWrC"
+1579268990052	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1579268990074	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1579268990074	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1579268990075	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1579268990075	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1579268991513	Marionette	INFO	Listening on port 33197
+1579268991548	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/FFsB_XOcYEA.js?_nc_x=LFj7KCR4P_p, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/FFsB_XOcYEA.js?_nc_x=LFj7KCR4P_p, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/FFsB_XOcYEA.js?_nc_x=LFj7KCR4P_p, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/FFsB_XOcYEA.js?_nc_x=LFj7KCR4P_p, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/FFsB_XOcYEA.js?_nc_x=LFj7KCR4P_p, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/FFsB_XOcYEA.js?_nc_x=LFj7KCR4P_p, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/FFsB_XOcYEA.js?_nc_x=LFj7KCR4P_p, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/FFsB_XOcYEA.js?_nc_x=LFj7KCR4P_p, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+1579269083075	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/FFsB_XOcYEA.js?_nc_x=LFj7KCR4P_p, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/FFsB_XOcYEA.js?_nc_x=LFj7KCR4P_p, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1579270252388	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile5XvWk7"
+1579270252688	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1579270252707	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1579270252708	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1579270252708	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1579270252708	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1579270254113	Marionette	INFO	Listening on port 44845
+1579270254209	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.facebook.com/rsrc.php/v3/yZ/r/FFsB_XOcYEA.js?_nc_x=LFj7KCR4P_p, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1579270573313	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileo60PZQ"
+1579270573623	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1579270573642	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1579270573643	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1579270573643	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1579270573643	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1579270575102	Marionette	INFO	Listening on port 37813
+1579270575123	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/FFsB_XOcYEA.js?_nc_x=LFj7KCR4P_p, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/FFsB_XOcYEA.js?_nc_x=LFj7KCR4P_p, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1579270737762	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile3UJNgB"
+1579270738091	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1579270738111	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1579270738111	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1579270738112	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1579270738112	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1579270739617	Marionette	INFO	Listening on port 39907
+1579270739685	Marionette	WARN	TLS certificate errors will be ignored for this session
+1579270773875	Marionette	INFO	Stopped listening on port 39907
+1579270828182	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilebaXDFh"
+1579270828482	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1579270828504	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1579270828504	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1579270828504	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1579270828504	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1579270829950	Marionette	INFO	Listening on port 38149
+1579270830004	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/FFsB_XOcYEA.js?_nc_x=LFj7KCR4P_p, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/FFsB_XOcYEA.js?_nc_x=LFj7KCR4P_p, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/FFsB_XOcYEA.js?_nc_x=LFj7KCR4P_p, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1579272570290	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilejNjHHF"
+1579272570729	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1579272570752	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1579272570752	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1579272570752	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1579272570752	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1579272572370	Marionette	INFO	Listening on port 39797
+1579272572397	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/FFsB_XOcYEA.js?_nc_x=LFj7KCR4P_p, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/FFsB_XOcYEA.js?_nc_x=LFj7KCR4P_p, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i6N34/yY/l/en_GB/WqJBXwyfl8E.js?_nc_x=LFj7KCR4P_p, line 56: Error: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: Failed to init decoder
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i6N34/yY/l/en_GB/WqJBXwyfl8E.js?_nc_x=LFj7KCR4P_p, line 56: Error: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: Failed to init decoder
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1579272713971	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilef3w5XO"
+1579272714319	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1579272714339	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1579272714339	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1579272714339	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1579272714339	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1579272715915	Marionette	INFO	Listening on port 43751
+1579272715984	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/FFsB_XOcYEA.js?_nc_x=LFj7KCR4P_p, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/FFsB_XOcYEA.js?_nc_x=LFj7KCR4P_p, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/FFsB_XOcYEA.js?_nc_x=LFj7KCR4P_p, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+1579272769528	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1579273430238	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileWbpjKK"
+1579273430609	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1579273430630	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1579273430630	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1579273430630	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1579273430630	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1579273432119	Marionette	INFO	Listening on port 44917
+1579273432151	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/FFsB_XOcYEA.js?_nc_x=LFj7KCR4P_p, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/FFsB_XOcYEA.js?_nc_x=LFj7KCR4P_p, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/FFsB_XOcYEA.js?_nc_x=LFj7KCR4P_p, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: resource://devtools/client/shared/widgets/tooltip/HTMLTooltip.js, line 912: TypeError: node.ownerDocument is null
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1579273864276	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile7wSoYW"
+1579273864584	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1579273864603	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1579273864603	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1579273864603	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1579273864603	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1579273866168	Marionette	INFO	Listening on port 38823
+1579273866191	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/FFsB_XOcYEA.js?_nc_x=LFj7KCR4P_p, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/FFsB_XOcYEA.js?_nc_x=LFj7KCR4P_p, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/FFsB_XOcYEA.js?_nc_x=LFj7KCR4P_p, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1579273990436	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile5A4hnq"
+1579273990720	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1579273990743	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1579273990743	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1579273990743	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1579273990743	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1579273992179	Marionette	INFO	Listening on port 37423
+1579273992250	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/FFsB_XOcYEA.js?_nc_x=LFj7KCR4P_p, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/FFsB_XOcYEA.js?_nc_x=LFj7KCR4P_p, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/FFsB_XOcYEA.js?_nc_x=LFj7KCR4P_p, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/FFsB_XOcYEA.js?_nc_x=LFj7KCR4P_p, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/FFsB_XOcYEA.js?_nc_x=LFj7KCR4P_p, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/FFsB_XOcYEA.js?_nc_x=LFj7KCR4P_p, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1579274201979	Marionette	INFO	Stopped listening on port 37423
+1579274202000	Marionette	INFO	Stopped listening on port 38823
+1579274245246	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile3F5erZ"
+1579274245606	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1579274245628	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1579274245628	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1579274245628	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1579274245628	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1579274247186	Marionette	INFO	Listening on port 45529
+1579274247262	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/FFsB_XOcYEA.js?_nc_x=LFj7KCR4P_p, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/FFsB_XOcYEA.js?_nc_x=LFj7KCR4P_p, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
