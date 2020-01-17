@@ -1172,3 +1172,4 @@ IPDL protocol error: Handler returned error code!
 1579274247262	Marionette	WARN	TLS certificate errors will be ignored for this session
 JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/FFsB_XOcYEA.js?_nc_x=LFj7KCR4P_p, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
 JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/FFsB_XOcYEA.js?_nc_x=LFj7KCR4P_p, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+1579275311670	Marionette	INFO	Stopped listening on port 45529

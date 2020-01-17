@@ -169,7 +169,7 @@ class CollectPosts(object):
                     if (len(self.browser.window_handles) == 2):
                         self.browser.switch_to.window(window_name=self.browser.window_handles[-1])
                         flag = True
-                except Exception as e: 
+                except Exception as e:
                     pass
                 if flag:
                     element = WebDriverWait(self.browser, 10).until(
